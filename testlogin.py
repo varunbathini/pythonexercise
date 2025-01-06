@@ -40,7 +40,7 @@ def validate_mobileNo(mobileNo):
     if re.match(pattern, mobileNo):
         return True
     else:
-       return False
+       return False,
 
 driver.find_element(By.CSS_SELECTOR, "input.form-control[formcontrolname=mobileNo]").send_keys('95059680001')
 # time.sleep(5)
