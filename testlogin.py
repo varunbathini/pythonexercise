@@ -57,15 +57,13 @@ time.sleep(3)
 driver.find_element(By.XPATH, "//select[@formcontrolname='relationshipId']/option[@value='1']").click()
 driver.find_element(By.CSS_SELECTOR, "input.form-control[formcontrolname=firstName]").send_keys('satyabhama')
 driver.find_element(By.CSS_SELECTOR, "input.form-control[formcontrolname='lastName']").send_keys('Parthiban')
-
-
 # driver.find_element(By.XPATH, "//button[@id='addButton']").click()
 # if "resident" in driver.title:
 #     print("resident added succesfully")
 # else:
 #     print("error occurred while adding resident")
 #     print(driver.title)
-# time.sleep(10)
+time.sleep(10)
 
 
 driver.close()
